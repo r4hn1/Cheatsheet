@@ -68,6 +68,9 @@ SNMP Enumeration (161):
     python /usr/share/doc/python-impacket-doc/examples/samrdump.py SNMP 192.168.X.XXX
     nmap -sT -p 161 192.168.X.XXX/254 -oG snmp_results.txt
     snmpenum -t 192.168.1.X
+    SNMP Tool : https://github.com/dheiland-r7/snmp
+    Dependency : https://metacpan.org/pod/NetAddr::IP
+    perl snmpbw.pl 10.10.10.241 public 2 1
 
 Oracle (1521):
 
